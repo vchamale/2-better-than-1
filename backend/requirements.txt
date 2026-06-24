@@ -1,0 +1,7 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+sqlmodel>=0.0.16
+asyncpg>=0.29
+alembic>=1.13
+pydantic-settings>=2.2
+greenlet>=3.0

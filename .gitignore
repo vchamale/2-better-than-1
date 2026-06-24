@@ -1,0 +1,28 @@
+# ── Secrets / entornos ──
+.env
+.env.*
+!.env.example
+!.env.local.example
+
+# ── Python / backend ──
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.sqlite3
+
+# ── Node / frontend ──
+node_modules/
+.next/
+out/
+build/
+*.tsbuildinfo
+
+# ── OS / editor ──
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ── Notas locales / handoff ──
+HANDOFF.md
